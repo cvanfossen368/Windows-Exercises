@@ -24,9 +24,17 @@ n = 4
 # use for loop to iterate 10 times
 for i in range(1,11):
    print(n,'x',i,'=',n*i)
-
-# Exercise 5
+   
+<<<<<<< HEAD
+ #Exercise 5
+   for i in range(1,11):
+    for j in range (1,11):
+        print(i*j, end='\t')
+    print ('')
+=======
+#Exercise 5
 for i in range(1,11):
     for j in range (1,11):
         print(i*j, end='\t')
     print ('')
+>>>>>>> fbfce9508d4ae33994533766220cd891b2c4062e
